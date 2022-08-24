@@ -1,0 +1,88 @@
+.container {
+  border-color: #d1d7dc;
+  border-style: solid;
+  border-width: thin;
+  margin-top: 0.5rem;
+  padding: 2rem;
+}
+.cardsHeader {
+  margin-bottom: 1.5rem;
+}
+.font {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: normal;
+}
+.temp {
+  width: 60%;
+}
+
+.barHide {
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+}
+.barHide {
+  display: flex;
+}
+
+.btn {
+  background-color: #fff;
+  border-width: thin;
+  color: black;
+  height: 2.5rem;
+  width: 10rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: snow;
+}
+.coursesCards {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.headers {
+  font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1500px) {
+  .hideCards {
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .hideCards {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .temp {
+    width: 100%;
+  }
+  .hideCards {
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 900px) {
+  .temp {
+    width: 100%;
+  }
+  .hideCards {
+    overflow: hidden;
+  }
+  .barHide
+  {
+    display: none;
+  }
+}

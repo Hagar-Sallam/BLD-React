@@ -1,0 +1,15 @@
+.rate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.checked {
+  color: orange;
+}
+.hah {
+  color: orange;
+}
+.notchecked
+{
+    color: orange;
+}

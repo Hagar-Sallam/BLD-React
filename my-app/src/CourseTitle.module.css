@@ -1,0 +1,11 @@
+.links {
+    color: black;
+    display: block;
+    text-decoration: none;
+  }
+  .headers {
+    font-family: udemy sans, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+      Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+      segoe ui symbol;
+    font-weight: bold;
+  }
